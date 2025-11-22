@@ -131,3 +131,26 @@ h1 {
 .experts p {
   text-align: center;
 }
+
+.quotes {
+  background-color: #c271ff;
+  padding: 1px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.quotes-content {
+  display: flex;
+  flex-direction: row;
+  margin: 107px auto 123px auto;
+  max-width: 1009px;
+  gap: 53px;
+  align-items: center;
+}
+
+.quotes-text h3 {
+  font-size: 22;
+  font-weight: 700;
+  margin-top: 22px;
+}
