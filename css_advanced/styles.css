@@ -304,3 +304,8 @@ footer p {
   font-weight: 400;
   opacity: 0.35;
 }
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
