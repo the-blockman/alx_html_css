@@ -215,3 +215,32 @@ h1 {
   justify-content: space-between;
   color: #c271ff;
 }
+
+.membership-section {
+  background-color: #071629;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+  padding: 70px;
+}
+
+.membership-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.membership-column {
+  max-width: 257px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26.62px;
+}
+
+.membership-column img {
+  width: 43.67px;
+}
