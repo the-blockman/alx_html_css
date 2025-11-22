@@ -154,3 +154,64 @@ h1 {
   font-weight: 700;
   margin-top: 22px;
 }
+
+.video-list {
+  padding: 87px 0px;
+}
+
+.video-list-row {
+  max-width: 1228px;
+  display: flex;
+  margin: 75px auto 0px auto;
+  gap: 31px;
+  box-sizing: border-box;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.video {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.video-control {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-card h3 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.video-card p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  margin: 7px 0px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+}
+
+.rating {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #c271ff;
+}
