@@ -31,8 +31,7 @@ nav {
 }
 
 header {
-  background-color: gray;
-  color: white;
+  background-image: url(media/headphones_hero_1.jpg);
 }
 
 @media screen and (max-width: 480px) {
@@ -46,8 +45,6 @@ header {
     position: absolute;
     top: 60px;
     background-color: grey;
-    display: none;
-    transition: 0.3s ease;
   }
 
   .hamburger {
