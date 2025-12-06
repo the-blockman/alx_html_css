@@ -7,6 +7,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .logo img {
@@ -31,4 +33,53 @@ nav {
 header {
   background-color: gray;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    justify-content: center;
+    position: relative;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: grey;
+    display: none;
+    transition: 0.3s ease;
+  }
+
+  .hamburger {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    left: 21px;
+    cursor: pointer;
+    top: 9px;
+  }
+
+  .hamburger span {
+    width: 26px;
+    height: 3px;
+    background: white;
+    transition: 0.3s ease;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #menu-toggle:checked + .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translateY(11px);
+  }
+  #menu-toggle:checked + .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+  #menu-toggle:checked + .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-11px);
+  }
 }
