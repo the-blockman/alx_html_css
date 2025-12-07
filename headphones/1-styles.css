@@ -4,6 +4,15 @@
   font-family: "Source Sans Pro";
 }
 
+.icon {
+  font-family: "holberton_school-icon";
+  font-size: 94px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #ff6565;
+}
+
 @font-face {
   font-family: "Source Sans Pro";
   src: url(fonts/SourceSansPro-Regular.otf);
@@ -102,6 +111,28 @@ section {
   padding-top: 80px;
   text-align: center;
   font-weight: 400;
+}
+
+.media {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  gap: 58px;
+}
+
+.media div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 62px;
+}
+
+.media p {
+  font-size: 14px;
 }
 
 @media screen and (max-width: 480px) {
