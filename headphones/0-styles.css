@@ -1,14 +1,35 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Source Sans Pro";
 }
 
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(fonts/SourceSansPro-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(fonts/SourceSansPro-Bold.otf);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
   max-width: 1000px;
-  margin: auto;
+  width: 100%;
 }
 
 .logo img {
@@ -32,6 +53,43 @@ nav {
 
 header {
   background-image: url(media/headphones_hero_1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 312px;
+  color: white;
+  padding: 29px 66px 115px 66px;
+}
+
+.hero-text {
+  max-width: 637px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  padding: 11px;
+}
+
+.hero-title p {
+  font-weight: 700;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ff6565;
+  padding: 13px 31px;
+  border-radius: 22px;
+  color: white;
+  border: none;
+}
+
+.hero-bottom {
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 480px) {
@@ -40,11 +98,14 @@ header {
     position: relative;
   }
 
+  header {
+    padding: 29px 9px 106px 9px;
+  }
+
   .nav-links {
     display: none;
     position: absolute;
     top: 60px;
-    background-color: grey;
   }
 
   .hamburger {
