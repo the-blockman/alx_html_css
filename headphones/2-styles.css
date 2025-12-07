@@ -32,6 +32,7 @@ h1 {
 p {
   font-size: 16px;
   font-weight: 400;
+  line-height: 26px;
 }
 nav {
   display: flex;
@@ -117,7 +118,7 @@ section {
 
 .media {
   display: flex;
-  max-width: 1000px;
+  max-width: 1002px;
   margin: auto;
   align-content: center;
   justify-content: center;
@@ -134,8 +135,64 @@ section {
   gap: 62px;
 }
 
-.media p {
+#small-text {
   font-size: 14px;
+}
+
+#result-section {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  background-image: url(media/headphones_hero_2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 221px 35px 79px 35px;
+}
+
+.results p {
+  max-width: 637px;
+}
+
+.result-icon-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 76px;
+  justify-content: center;
+  align-content: center;
+}
+
+#result-icon {
+  position: relative;
+  width: 190px;
+  height: 190px;
+}
+
+#result-icon img {
+  width: 100%;
+}
+
+.icon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#big {
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 480px) {
