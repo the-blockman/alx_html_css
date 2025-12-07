@@ -213,6 +213,28 @@ input {
   border-bottom: 1px solid black;
 }
 
+footer {
+  background-color: #071629;
+  padding: 109px 56px 35px 56px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+}
+
+#footer-copyright {
+  color: white;
+  opacity: 35%;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 480px) {
   nav {
     justify-content: center;
