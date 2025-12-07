@@ -306,13 +306,12 @@ footer {
   .hamburger span:nth-child(3).active {
     transform: rotate(-45deg) translateY(-11px);
   }
+  .footer-text {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 .media div {
   max-width: 207px;
-}
-
-.footer-text {
-  flex-direction: column;
-  gap: 40px;
 }
